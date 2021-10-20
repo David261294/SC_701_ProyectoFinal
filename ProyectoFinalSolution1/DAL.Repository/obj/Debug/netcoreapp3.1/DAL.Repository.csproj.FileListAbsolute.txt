@@ -1,0 +1,12 @@
+C:\Users\David\source\repos\ProyectoFinalSolution1\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.deps.json
+C:\Users\David\source\repos\ProyectoFinalSolution1\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.runtimeconfig.json
+C:\Users\David\source\repos\ProyectoFinalSolution1\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.runtimeconfig.dev.json
+C:\Users\David\source\repos\ProyectoFinalSolution1\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.dll
+C:\Users\David\source\repos\ProyectoFinalSolution1\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.pdb
+C:\Users\David\source\repos\ProyectoFinalSolution1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.csprojAssemblyReference.cache
+C:\Users\David\source\repos\ProyectoFinalSolution1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.AssemblyInfoInputs.cache
+C:\Users\David\source\repos\ProyectoFinalSolution1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.AssemblyInfo.cs
+C:\Users\David\source\repos\ProyectoFinalSolution1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.csproj.CoreCompileInputs.cache
+C:\Users\David\source\repos\ProyectoFinalSolution1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.dll
+C:\Users\David\source\repos\ProyectoFinalSolution1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.pdb
+C:\Users\David\source\repos\ProyectoFinalSolution1\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.genruntimeconfig.cache
