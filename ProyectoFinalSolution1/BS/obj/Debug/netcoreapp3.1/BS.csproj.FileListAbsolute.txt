@@ -10,3 +10,15 @@ C:\Users\David\source\repos\ProyectoFinalSolution1\BS\obj\Debug\netcoreapp3.1\BS
 C:\Users\David\source\repos\ProyectoFinalSolution1\BS\obj\Debug\netcoreapp3.1\BS.dll
 C:\Users\David\source\repos\ProyectoFinalSolution1\BS\obj\Debug\netcoreapp3.1\BS.pdb
 C:\Users\David\source\repos\ProyectoFinalSolution1\BS\obj\Debug\netcoreapp3.1\BS.genruntimeconfig.cache
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\BS\bin\Debug\netcoreapp3.1\BS.deps.json
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\BS\bin\Debug\netcoreapp3.1\BS.runtimeconfig.json
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\BS\bin\Debug\netcoreapp3.1\BS.runtimeconfig.dev.json
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\BS\bin\Debug\netcoreapp3.1\BS.dll
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\BS\bin\Debug\netcoreapp3.1\BS.pdb
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\BS\obj\Debug\netcoreapp3.1\BS.csprojAssemblyReference.cache
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\BS\obj\Debug\netcoreapp3.1\BS.AssemblyInfoInputs.cache
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\BS\obj\Debug\netcoreapp3.1\BS.AssemblyInfo.cs
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\BS\obj\Debug\netcoreapp3.1\BS.csproj.CoreCompileInputs.cache
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\BS\obj\Debug\netcoreapp3.1\BS.dll
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\BS\obj\Debug\netcoreapp3.1\BS.pdb
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\BS\obj\Debug\netcoreapp3.1\BS.genruntimeconfig.cache
