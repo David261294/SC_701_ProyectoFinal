@@ -69,3 +69,13 @@ C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\obj\Debug\netcoreapp
 C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\obj\Debug\netcoreapp3.1\API.dll
 C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\obj\Debug\netcoreapp3.1\API.pdb
 C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\bin\Debug\netcoreapp3.1\DAL.DO.dll
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\bin\Debug\netcoreapp3.1\DAL.EF.dll
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\bin\Debug\netcoreapp3.1\DAL.EF.pdb
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\bin\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\bin\Debug\netcoreapp3.1\BS.dll
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\bin\Debug\netcoreapp3.1\DAL.Repository.dll
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\bin\Debug\netcoreapp3.1\BS.pdb
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Git\SC_701_ProyectoFinal\ProyectoFinalSolution1\Proyecto\bin\Debug\netcoreapp3.1\DAL.Repository.pdb
