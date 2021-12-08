@@ -23,13 +23,13 @@ namespace DAL.Repository
                 .ToListAsync();
         }
 
-        public async Task<data.DetalleFactura> GetOneByIdAsync(int id, int codigoFactura, int IdTratamiento, int IdProducto)
+        public async Task<data.DetalleFactura> GetOneByIdAsync(int id/*, int codigoFactura, int IdTratamiento, int IdProducto*/)
         {
             return await _db.DetalleFactura
                 .Include(m => m.CodigoFacturaNavigation)
                 .Include(m => m.IdTratamientoNavigation)
                 .Include(m => m.IdProductoNavigation)
-                .SingleAsync(m => m.CodigoDetalle == id && m.CodigoFactura == codigoFactura && m.IdTratamiento== IdTratamiento && m.IdProducto == IdProducto);
+                .SingleAsync(m => m.CodigoDetalle == id /*&& m.CodigoFactura == codigoFactura && m.IdTratamiento== IdTratamiento && m.IdProducto == IdProducto*/);
         }
 
         private DBDentistaContext _db

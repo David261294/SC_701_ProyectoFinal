@@ -9,6 +9,6 @@ namespace DAL.Repository
     public interface IRepositoryReunion : IRepository<data.Reunion>
     {
         Task<IEnumerable<data.Reunion>> GetAllAsync();
-        Task<data.Reunion> GetOneByIdAsync( int id, int IdDentista, int IdRecepcionista);
+        Task<data.Reunion> GetOneByIdAsync( int id/*, int IdDentista, int IdRecepcionista*/);
     }
 }

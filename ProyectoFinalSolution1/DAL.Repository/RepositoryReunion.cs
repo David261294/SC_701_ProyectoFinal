@@ -23,12 +23,12 @@ namespace DAL.Repository
                 .ToListAsync();
         }
 
-        public async Task<data.Reunion> GetOneByIdAsync(int id, int IdDentista, int IdRecepcionista)
+        public async Task<data.Reunion> GetOneByIdAsync(int id/*, int IdDentista, int IdRecepcionista*/)
         {
             return await _db.Reunion
                 .Include(m => m.IdDentistaNavigation)
                 .Include(m => m.IdRecepcionistaNavigation)
-                .SingleAsync(m => m.NumeroReunion== id && m.IdDentista == IdDentista && m.IdRecepcionista == IdRecepcionista);
+                .SingleAsync(m => m.NumeroReunion== id /*&& m.IdDentista == IdDentista && m.IdRecepcionista == IdRecepcionista*/);
         }
 
         public async void DeleteAsync(data.Reunion Reunion)

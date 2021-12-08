@@ -39,15 +39,15 @@ namespace DAL
             return repo.GetOnebyID(id);
         }
 
-        public Task<data.Reunion> GetOneByIdAsync(int id, int IdDentista, int IdRecepcionista)
+        public Task<data.Reunion> GetOneByIdAsync(int id/*, int IdDentista, int IdRecepcionista*/)
         {
-            return repo.GetOneByIdAsync(id,IdDentista, IdRecepcionista);
+            return repo.GetOneByIdAsync(id/*,IdDentista, IdRecepcionista*/);
         }
 
-        public Task<data.Reunion> GetOneByIdAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
+        //public Task<data.Reunion> GetOneByIdAsync(int id)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         public void Insert(data.Reunion t)
         {

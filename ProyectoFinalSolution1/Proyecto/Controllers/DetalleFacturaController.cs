@@ -37,10 +37,10 @@ namespace API.Controllers
         }
 
         // GET: api/Foci/5
-        [HttpGet("{id},{codigoFactura},{IdTratamiento},{IdProducto}")]
-        public async Task<ActionResult<models.DetalleFactura>> GetDetalleFactura(int id,int codigoFactura, int IdTratamiento, int IdProducto)
+        [HttpGet("{id}")] /*,{codigoFactura},{IdTratamiento},{ IdProducto}*/
+        public async Task<ActionResult<models.DetalleFactura>> GetDetalleFactura(int id/*,int codigoFactura, int IdTratamiento, int IdProducto*/)
         {
-            var DetalleFactura = await new BS.DetalleFactura(dbcontext).GetOneByIdAsync(id, codigoFactura, IdTratamiento, IdProducto);
+            var DetalleFactura = await new BS.DetalleFactura(dbcontext).GetOneByIdAsync(id/*, codigoFactura, IdTratamiento, IdProducto*/);
             var mapaux = mapper.Map<data.DetalleFactura, models.DetalleFactura>(DetalleFactura);
 
             // Este Get no trae las relaaciones
@@ -88,13 +88,13 @@ namespace API.Controllers
         // POST: api/Foci
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPost("{CodigoFactura},{IdTratamiento},{IdProducto}")]
+        [HttpPost/*("{CodigoFactura},{IdTratamiento},{IdProducto}")*/]
         public async Task<ActionResult<models.DetalleFactura>> PostDetalleFactura(models.DetalleFactura DetalleFactura)
         {
             var mapaux = mapper.Map<models.DetalleFactura, data.DetalleFactura>(DetalleFactura);
             new BS.DetalleFactura(dbcontext).Insert(mapaux);
 
-            return CreatedAtAction("GetDetalleFactura", new { id = DetalleFactura.CodigoFactura , DetalleFactura.IdTratamiento,DetalleFactura.IdProducto}, DetalleFactura);
+            return CreatedAtAction("GetDetalleFactura", new { id = DetalleFactura.CodigoFactura /*DetalleFactura.IdTratamiento, DetalleFactura.IdProducto },*/ }, DetalleFactura);
         }
 
         // DELETE: api/Foci/5
