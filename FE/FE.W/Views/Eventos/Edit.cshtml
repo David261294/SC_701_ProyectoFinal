@@ -1,0 +1,49 @@
+﻿@model FE.W.Models.Eventos
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Eventos</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdEvento" />
+            <div class="form-group">
+                <label asp-for="DíaEvento" class="control-label"></label>
+                <input asp-for="DíaEvento" class="form-control" />
+                <span asp-validation-for="DíaEvento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MesEvento" class="control-label"></label>
+                <input asp-for="MesEvento" class="form-control" />
+                <span asp-validation-for="MesEvento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AñoEvento" class="control-label"></label>
+                <input asp-for="AñoEvento" class="form-control" />
+                <span asp-validation-for="AñoEvento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DetallesEvento" class="control-label"></label>
+                <input asp-for="DetallesEvento" class="form-control" />
+                <span asp-validation-for="DetallesEvento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

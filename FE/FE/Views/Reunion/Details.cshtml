@@ -1,0 +1,42 @@
+﻿@model FE.Models.Reunion
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Reunion</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Dia)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Dia)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DetallesReunion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DetallesReunion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IdDentistaNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IdDentistaNavigation.NombreDentista)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IdRecepcionistaNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IdRecepcionistaNavigation.NombreRecepcionista)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.NumeroReunion">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

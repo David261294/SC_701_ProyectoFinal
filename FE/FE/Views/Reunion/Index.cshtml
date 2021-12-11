@@ -1,0 +1,55 @@
+﻿@model IEnumerable<FE.Models.Reunion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Dia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DetallesReunion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdDentistaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdRecepcionistaNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DetallesReunion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdDentistaNavigation.NombreDentista)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdRecepcionistaNavigation.NombreRecepcionista)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.NumeroReunion">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.NumeroReunion">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.NumeroReunion">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
