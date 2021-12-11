@@ -8,7 +8,7 @@ namespace API.Models
     {
         public FacturaPaciente()
         {
-            //DetalleFactura = new HashSet<DetalleFactura>();
+            DetalleFactura = new HashSet<DetalleFactura>();
         }
 
         public int CodigoFactura { get; set; }
