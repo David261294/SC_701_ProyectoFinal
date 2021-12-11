@@ -8481,11 +8481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\FE\\FE.W\\FE.W.csproj",
+      "projectUniqueName": "C:\\Git\\SC_701_ProyectoFinal\\FE\\FE.W\\FE.W.csproj",
       "projectName": "FE.W",
-      "projectPath": "C:\\Git\\FE\\FE.W\\FE.W.csproj",
+      "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FE\\FE.W\\FE.W.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\FE\\FE.W\\obj\\",
+      "outputPath": "C:\\Git\\SC_701_ProyectoFinal\\FE\\FE.W\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",

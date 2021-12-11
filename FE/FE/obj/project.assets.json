@@ -5705,11 +5705,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\FE\\FE\\FE.csproj",
+      "projectUniqueName": "C:\\Git\\SC_701_ProyectoFinal\\FE\\FE\\FE.csproj",
       "projectName": "FE",
-      "projectPath": "C:\\Git\\FE\\FE\\FE.csproj",
+      "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FE\\FE\\FE.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\FE\\FE\\obj\\",
+      "outputPath": "C:\\Git\\SC_701_ProyectoFinal\\FE\\FE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
