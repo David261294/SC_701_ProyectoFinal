@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FE.Models;
 using FE.Servicios;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FE.Controllers
 {
+    [Authorize]
     public class ReviewsController : Controller
     {
 

@@ -4,10 +4,11 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Lista de Datos</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary" href="~/Recepcionistas/Create"> Crear Nuevo </a>
+    @*<a asp-action="Create">Create New</a>*@
 </p>
 <table class="table">
     <thead>
@@ -38,9 +39,12 @@
                     @Html.DisplayFor(modelItem => item.Contraseña)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.IdRecepcionista">Edit</a> |
+                    <a class="btn btn-warning" href="~/Recepcionistas/Edit/@item.IdRecepcionista "> Editar </a> |
+                    <a class="btn btn-info" href="~/Recepcionistas/Details/@item.IdRecepcionista "> Detalles </a> |
+                    <a class="btn btn-danger" href="~/Recepcionistas/Delete/@item.IdRecepcionista"> Eliminar </a>
+                    @*<a asp-action="Edit" asp-route-id="@item.IdRecepcionista">Edit</a> |
                     <a asp-action="Details" asp-route-id="@item.IdRecepcionista">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.IdRecepcionista">Delete</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdRecepcionista">Delete</a>*@
                 </td>
             </tr>
         }

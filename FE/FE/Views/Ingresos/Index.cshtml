@@ -4,10 +4,11 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Lista de Datos</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary" href="~/Ingresos/Create"> Crear Nuevo </a>
+    @*<a asp-action="Create">Create New</a>*@
 </p>
 <table class="table">
     <thead>
@@ -32,9 +33,12 @@
                     @Html.DisplayFor(modelItem => item.CodigoDetalleNavigation.PrecioFinal)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.IdIngreso">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.IdIngreso">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.IdIngreso">Delete</a>
+                    <a class="btn btn-warning" href="~/Ingresos/Edit/@item.IdIngreso "> Editar </a> |
+                    <a class="btn btn-info" href="~/Ingresos/Details/@item.IdIngreso "> Detalles </a> |
+                    <a class="btn btn-danger" href="~/Ingresos/Delete/@item.IdIngreso"> Eliminar </a>
+                    @*<a asp-action="Edit" asp-route-id="@item.IdIngreso">Edit</a> |
+        <a asp-action="Details" asp-route-id="@item.IdIngreso">Details</a> |
+        <a asp-action="Delete" asp-route-id="@item.IdIngreso">Delete</a>*@
                 </td>
             </tr>
         }
