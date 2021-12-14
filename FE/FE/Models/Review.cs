@@ -11,7 +11,7 @@ namespace FE.Models
         public int IdReview { get; set; }
         [DisplayName("Nombre del Paciente")]
         public int IdCitas { get; set; }
-        [DisplayName("Nombre del Paciente")]
+        [DisplayName("Verificado por")]
         public string NombrePacienteCita { get; set; }
         public string Comentario { get; set; }
         public string Estrellas { get; set; }

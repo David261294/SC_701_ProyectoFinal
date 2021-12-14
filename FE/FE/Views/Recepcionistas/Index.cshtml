@@ -19,9 +19,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.ApellidoRecepcionista)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.Contraseña)
-            </th>
+            </th>*@
             <th></th>
         </tr>
     </thead>
@@ -35,9 +35,9 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.ApellidoRecepcionista)
                 </td>
-                <td>
+                @*<td>
                     @Html.DisplayFor(modelItem => item.Contraseña)
-                </td>
+                </td>*@
                 <td>
                     <a class="btn btn-warning" href="~/Recepcionistas/Edit/@item.IdRecepcionista "> Editar </a> |
                     <a class="btn btn-info" href="~/Recepcionistas/Details/@item.IdRecepcionista "> Detalles </a> |

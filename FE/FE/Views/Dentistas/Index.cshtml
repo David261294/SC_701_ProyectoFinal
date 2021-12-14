@@ -19,9 +19,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.ApellidoDentista)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.Contraseña)
-            </th>
+            </th>*@
             <th></th>
         </tr>
     </thead>
@@ -35,9 +35,9 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.ApellidoDentista)
                 </td>
-                <td>
+                @*<td>
                     @Html.DisplayFor(modelItem => item.Contraseña)
-                </td>
+                </td>*@
                 <td>
                     <a class="btn btn-warning" href="~/Dentistas/Edit/@item.IdDentista "> Editar </a> |
                     <a class="btn btn-info" href="~/Dentistas/Details/@item.IdDentista "> Detalles </a> |
